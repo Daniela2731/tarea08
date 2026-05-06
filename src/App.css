@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f1eb; /* crema suave */
+}
+
+/* CONTENEDOR */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+  width: 320px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border: 1px solid #e6dfd5;
+}
+
+/* TITULOS */
+h2 {
+  text-align: center;
+  color: #5a4a3f; /* marrón elegante */
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #d6cfc7;
+  background: #faf8f5;
+}
+
+/* INPUT FOCUS */
+input:focus {
+  outline: none;
+  border-color: #a67c52;
+}
+
+/* BOTÓN */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #a67c52; /* marrón */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #8c6843;
+}
+
+/* LINKS */
+p {
+  text-align: center;
+  color: #6e5c4f;
+}
+
+p button {
+  background: none;
+  color: #a67c52;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* NAVBAR */
+nav {
+  background: #3e332a; /* marrón oscuro */
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #f5f1eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav button {
+  background: #a67c52;
+  padding: 6px 10px;
+  width: auto;
+}
